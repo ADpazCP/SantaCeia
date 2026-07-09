@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Santa Ceia</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ececec;
+    color:#333;
+}
+
+/* CABEÇALHO */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:78px;
+    background:#182233;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+    box-shadow:0 2px 8px rgba(0,0,0,.3);
+}
+
+header img{
+    height:42px;
+}
+
+/* CONTEÚDO */
+
+.container{
+    max-width:500px;
+    margin:100px auto 40px;
+    background:#fff;
+    border:1px solid #d9d9d9;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+.topo img{
+    width:100%;
+    display:block;
+}
+
+.conteudo{
+    padding:22px;
+}
+
+h1{
+    color:#c76b17;
+    font-size:34px;
+    margin-bottom:18px;
+    font-weight:400;
+}
+
+p{
+    margin-bottom:12px;
+    line-height:1.55;
+    font-size:17px;
+}
+
+strong{
+    font-weight:bold;
+}
+
+.check{
+    color:#d35400;
+    font-weight:bold;
+}
+
+.rodape{
+    margin-top:25px;
+    text-align:center;
+    font-size:20px;
+    color:#444;
+    font-weight:bold;
+}
+
+/* Responsivo */
+
+@media(max-width:600px){
+
+    header{
+        height:72px;
+    }
+
+    header img{
+        height:38px;
+    }
+
+    .container{
+        margin:88px 10px 20px;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Igreja ADPAZ">
+</header>
+
+<div class="container">
+
+    <div class="topo">
+        <img src="ceia.webp" alt="Santa Ceia">
+    </div>
+
+    <div class="conteudo">
+
+        <h1>Domingo tem Santa Ceia!</h1>
+
+        <p>
+            🙏 <strong>A paz do Senhor, povo de Deus!</strong><br>
+            Bom dia! ☀️
+        </p>
+
+        <p>
+            Neste <strong>próximo domingo</strong>, teremos a
+            <strong>2ª edição da Santa Ceia do Senhor</strong> 🍞🍷,
+            especialmente para aqueles que não puderam participar no domingo passado.
+        </p>
+
+        <p>
+            Pedimos, por gentileza, que confirmem a presença para que possamos organizar toda a logística deste momento tão especial de comunhão.
+            🤝
+        </p>
+
+        <p>
+            ✅ Deixe um <span class="check">✔️ (check)</span> neste comentário se você irá participar.
+        </p>
+
+        <p>
+            Que Deus abençoe a todos! 🙏❤️
+        </p>
+
+        <div class="rodape">
+            Vamos viver a comunhão! ❤️
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
